@@ -8,6 +8,9 @@ Take The Plunge is a website designed to help people understand the incredible b
 - Accessibility:
 
 82 - Performance
+
 94 - Accessibility
+
 92 - Best Practices
+
 83 - SEO
