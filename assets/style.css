@@ -8,7 +8,7 @@
 /* background color */
 body {
     font-family: Verdana;
-    background-color: rgb(222, 203, 203);
+    background-color: rgb(241, 232, 232);
     margin: 0;
     padding: 20;
 }
@@ -29,7 +29,7 @@ h1 {
 
 h2 {
     font-family: Verdana;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 /* Style paragraphs */
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    color: cyan;
+    color: rgb(5, 113, 113);
 }
 
 /* Style main content section */
@@ -55,6 +55,6 @@ main {
 
 /* Style sections */
 section {
-    background-color: rgb(222, 203, 203);
+    background-color: rgb(241, 232, 232);
     padding: 10px;
 }
