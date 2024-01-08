@@ -29,8 +29,14 @@ h1 {
 
 h2 {
     font-family: Verdana;
-    font-size: 40px;
+    font-size: 30px;
 }
+
+h3 {
+    font-family: Verdana;
+    font-size: 20px;
+}
+
 
 /* Style paragraphs */
 p {
@@ -59,7 +65,9 @@ section {
     padding: 10px;
 }
 
-/* Style table */
-table {
-
+/* Style footer section */
+footer {
+    color: hsl(0, 5%, 13%);
+    padding: 20px;
+    text-align: center;
 }
