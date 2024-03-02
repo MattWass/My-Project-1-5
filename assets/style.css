@@ -65,6 +65,17 @@ section {
     padding: 10px;
 }
 
+/* Responsive Styles */
+@media screen and (min-width: 576px) {
+   header {
+    padding: 10px; 
+    display: block;
+    
+   }
+
+}
+    
+
 /* Style footer section */
 footer {
     color: hsl(0, 5%, 13%);
