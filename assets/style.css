@@ -65,16 +65,46 @@ section {
     padding: 10px;
 }
 
-/* Responsive Styles */
+/* Responsive Styles - Media Query for screens that are at least 576px wide */
 @media screen and (min-width: 576px) {
    header {
     padding: 10px; 
     display: block;
+    box-shadow: none;
     
    }
 
+   nav a {
+    margin: 0 10px;
+    color: lightblue;
+    text-decoration: none;
+   }
+
+nav a:hover
+text-decoration: underline;
 }
+
+/* Responsive Styles - Media Query for screens that are at least 768px wide */
+
+@media screen and (min-width: 768) {
+    .container {
+        padding: 20px;
+    }
     
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+}
+
+/* Responsive Styles - Media Query for screens that are 992px and above */
+
+@media screen and (min-width: 992) {
+    .container {
+        padding: 30px;
+    }
+}
 
 /* Style footer section */
 footer {
