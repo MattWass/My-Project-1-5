@@ -29,8 +29,9 @@ a:hover {
     color: rgb(12, 138, 138);
 }
 
-/* background color */
+/* Style body content section */
 body {
+    padding: 20px;
     background-color: rgba(155, 146, 146, 0.562);
     margin: 0;
     padding: 20;
@@ -73,9 +74,16 @@ p {
     color: hsl(0, 14%, 4%);
 }
 
-/* Style main content section */
-main {
-    padding: 20px;
+
+/* Style Table */
+table {
+    font-family: Verdana;
+    font-size: 15px;
+    color: hsl(0, 14%, 4%);
+    border-collapse: collapse;
+    border: 2px solid;
+    border-bottom: 2px solid;
+
 }
 
 /* Responsive Styles - Media Query for screens that are at least 576px wide */
