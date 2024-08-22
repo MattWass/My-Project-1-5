@@ -61,7 +61,7 @@ main {
 
 /* Style sections */
 section {
-    background-color: rgb(241, 232, 232);
+    background-color: rgba(241, 232, 232, 0.76);
     padding: 10px;
 }
 
@@ -71,21 +71,16 @@ section {
     padding: 10px; 
     display: block;
     box-shadow: none;
-    
    }
 
    nav a {
     margin: 0 10px;
-    color: lightblue;
+    color: rgb(13, 13, 14);
     text-decoration: none;
    }
-
-nav a:hover
-text-decoration: underline;
 }
 
 /* Responsive Styles - Media Query for screens that are at least 768px wide */
-
 @media screen and (min-width: 768) {
     .container {
         padding: 20px;
@@ -99,7 +94,6 @@ text-decoration: underline;
 }
 
 /* Responsive Styles - Media Query for screens that are 992px and above */
-
 @media screen and (min-width: 992) {
     .container {
         padding: 30px;
