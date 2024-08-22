@@ -13,19 +13,19 @@ nav ul  {
 }
 
 nav li {
-    font-size: medium;
+    font-size: large;
     line-height: 50px;
     height: fit-content;
     display: inline-block;
+    margin: 3%;
 }
 
-
 a {
-    color: hsl(0, 6%, 10%);
+    color: hsl(0, 14%, 4%);
 }
 
 a:hover {
-    color: rgb(5, 113, 113);
+    color: rgb(12, 110, 110);
 }
 
 /* background color */
