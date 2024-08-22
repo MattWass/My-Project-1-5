@@ -13,11 +13,12 @@ nav ul  {
 }
 
 nav li {
+    font-family: Verdana;
     font-size: large;
     line-height: 50px;
     height: fit-content;
     display: inline-block;
-    margin: 3%;
+    margin: 2%;
 }
 
 a {
@@ -25,13 +26,12 @@ a {
 }
 
 a:hover {
-    color: rgb(12, 110, 110);
+    color: rgb(12, 138, 138);
 }
 
 /* background color */
 body {
-    font-family: Verdana;
-    background-color: rgb(241, 232, 232);
+    background-color: rgba(155, 146, 146, 0.562);
     margin: 0;
     padding: 20;
 }
@@ -39,9 +39,14 @@ body {
 /* Style header */
 header {
     background-color: rgb(103, 194, 224);
-    color: hsl(0, 5%, 13%);
+    font-family: Verdana;
+    color: hsl(0, 14%, 4%);
     padding: 20px;
     text-align: center;
+}
+
+img {
+
 }
 
 /* Style headings */
@@ -65,18 +70,12 @@ h3 {
 p {
     font-family: Verdana;
     font-size: 25px;
-    color: hsl(0, 6%, 10%);
+    color: hsl(0, 14%, 4%);
 }
 
 /* Style main content section */
 main {
     padding: 20px;
-}
-
-/* Style sections */
-section {
-    background-color: rgba(241, 232, 232, 0.76);
-    padding: 10px;
 }
 
 /* Responsive Styles - Media Query for screens that are at least 576px wide */
@@ -89,7 +88,7 @@ section {
 
    nav a {
     margin: 0 10px;
-    color: rgb(13, 13, 14);
+    color: hsl(0, 14%, 4%);
     text-decoration: none;
    }
 }
@@ -116,7 +115,7 @@ section {
 
 /* Style footer section */
 footer {
-    color: hsl(0, 5%, 13%);
+    color: hsl(0, 14%, 4%);
     padding: 20px;
     text-align: center;
 }
