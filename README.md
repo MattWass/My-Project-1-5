@@ -5,7 +5,7 @@ Take The Plunge is a website designed to help people understand the incredible b
 Welcome to  [Take The Plunge](https://mattwass.github.io/My-Project-1-5/)
 
 
-- Accessibility:
+Accessibility:
 
 82 - Performance
 
