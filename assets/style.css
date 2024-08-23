@@ -99,6 +99,7 @@ a:hover {
 main {
     background-color: rgba(155, 146, 146, 0.562);
     flex: 1 0 auto;
+    margin-top: 50px;
 }
 
 /* Style headings */
@@ -133,6 +134,14 @@ table {
 
 }
 
+/* Style footer section */
+footer {
+    background-color: rgba(155, 146, 146, 0.562);
+    color: hsl(0, 14%, 4%);
+    padding: 20px;
+    text-align: center;
+}
+
 /* Responsive Styles - Media Query for screens that are at least 576px wide */
 @media screen and (min-width: 576px) {
    header {
@@ -148,16 +157,27 @@ table {
    }
 }
 
-/* Responsive Styles - Media Query for screens that are at least 768px wide */
+/* Responsive Styles - Media Query for screens that are at least 768px */
 @media screen and (min-width: 768) {
-    .container {
-        padding: 20px;
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
-    
-    header {
-        position: sticky;
-        top: 0;
-        z-index: 1000;
+
+    #nav {
+        display: flex;
+    }
+
+    #nav > li {
+        padding-left: 1rem;
+    }
+
+    .nav.toggle-label {
+        display: none;
     }
 }
 
@@ -166,12 +186,4 @@ table {
     .container {
         padding: 30px;
     }
-}
-
-/* Style footer section */
-footer {
-    background-color: rgba(155, 146, 146, 0.562);
-    color: hsl(0, 14%, 4%);
-    padding: 20px;
-    text-align: center;
 }
