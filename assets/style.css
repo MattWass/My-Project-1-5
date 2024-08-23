@@ -101,26 +101,6 @@ main {
     margin-top: 50px;
 }
 
-/* Style headings */
-
-
-h2 {
-    font-family: Verdana;
-    font-size: 30px;
-}
-
-h3 {
-    font-family: Verdana;
-    font-size: 20px;
-}
-
-
-/* Style paragraphs */
-p {
-    font-family: Verdana;
-    font-size: 15px;
-}
-
 
 /* Style Table */
 table {
@@ -134,27 +114,22 @@ table {
 }
 
 /* Style footer section */
-footer {
-    background-color: rgba(155, 146, 146, 0.562);
-    color: hsl(0, 14%, 4%);
-    padding: 20px;
+#social-networks {
     text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks {
+    font-size: medium;
+    padding: 2.5%;
+    color:hsl(0, 14%, 4%)
 }
 
 /* Responsive Styles - Media Query for screens that are at least 576px wide */
-@media screen and (min-width: 576px) {
-   header {
-    padding: 10px; 
-    display: block;
-    box-shadow: none;
-   }
 
-   nav a {
-    margin: 0 10px;
-    color: hsl(0, 14%, 4%);
-    text-decoration: none;
-   }
-}
 
 /* Responsive Styles - Media Query for screens that are at least 768px */
 @media screen and (min-width: 768) {
