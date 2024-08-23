@@ -10,27 +10,6 @@
 
 }
 
-/*---Headings---*/
-h2 {
-    font-size: 2.5rem;
-}
-
-h3 {
-    font-size: 1,5rem;
-}
-
-h1, h2, h3 {
-    color: hsl(0, 14%, 4%);;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.text-left {
-    text-align: left;
-}
-
 /* General Styles */
 body {
     font-family: "Rubik", sans-serif;
@@ -40,16 +19,23 @@ body {
     color: hsl(0, 14%, 4%);
 }
 
-.w100 {
-    width: 100%;
+/* Headings */
+h2, h3 {
+    text-align: center;
+    color: hsl(0, 14%, 4%);;
 }
 
-section {
-    padding: 10px;
+h2 {
+    font-size: 2.5rem;
 }
 
-.top-margin-5 {
-    margin-top: 5rem;
+h3 {
+    font-size: 1rem;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1rem;
 }
 
 /* Style Header */
@@ -61,16 +47,12 @@ header {
     
 }
 
-header a {
-    text-decoration: none;
-    color: inherit;
-}
-
 /* Style Nav links */
 #nav ul {
+    background-color: rgb(163, 210, 226);
     letter-spacing: 1px;
     list-style: none;
-    text-align: center;
+    text-align: right;
 }
 
 #nav > li {
@@ -107,10 +89,12 @@ table {
     border-collapse: collapse;
     border: 2px solid;
     border-bottom: 2px solid;
-
 }
 
 /* Style footer section */
+footer {
+    text-align: center;
+}
 #social-networks {
     text-align: center;
     padding: 20px;
