@@ -23,7 +23,7 @@ body {
 
 /* Style Header */
 header {
-    background-color: rgb(103, 194, 224);
+    background-color: rgb(163, 210, 226);
     padding: 16px;
     position: fixed;
     z-index: 99;
@@ -59,7 +59,7 @@ header a {
 /* Nav styles dropdown section*/
 nav {
     position: absolute;
-    background-color:  rgb(103, 194, 224);
+    background-color:  rgb(163, 210, 226);
     width: 100%;
     left: 0;
     padding: 0 1rem;
