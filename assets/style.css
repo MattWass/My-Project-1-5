@@ -39,12 +39,6 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: "Rubik", sans-serif;
-    font-size: 40px;
-    letter-spacing: 1px;
-}
-
 /* Style Nav links */
 #nav  {
     font-size: large;
@@ -179,6 +173,20 @@ footer {
     .nav.toggle-label {
         display: none;
     }
+
+    #logo {
+        font-family: "Rubik", sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 1px;
+        margin: 0.25em;
+       }
+
+       /* Main Content */
+       main {
+        /* Main Content to be pushed down to accomodate for increase in the header */
+        margin-top: 80px;
+       }
 }
 
 /* Responsive Styles - Media Query for screens that are 992px and above */
