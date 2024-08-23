@@ -86,7 +86,12 @@ a {
 }
 
 a:hover {
-    color:rgb(12, 138, 138);
+    color: hsl(0, 14%, 4%);
+    border-bottom: 2px solid;
+}
+
+.active {
+    border-bottom: 2px solid hsl(0, 14%, 4%);
 }
 
 /* Style Main content section */
@@ -191,7 +196,7 @@ footer {
 
 /* Responsive Styles - Media Query for screens that are 992px and above */
 @media screen and (min-width: 992) {
-    .container {
-        padding: 30px;
+    #nav a:hover {
+        border-bottom: 1px solid hsl(0, 14%, 4%);
     }
 }
