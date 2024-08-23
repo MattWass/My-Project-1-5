@@ -60,18 +60,6 @@ header {
 }
 
 /* Nav Toggle */
-#nav-toggle {
-    display: none;
-}
-
-.nav.toggle-label {
-    font-size: 2rem;
-}
-
-a {
-    color:hsl(0, 14%, 4%);
-}
-
 a:hover {
     color: hsl(0, 14%, 4%);
     border-bottom: 2px solid;
@@ -94,22 +82,21 @@ table {
 /* Style footer section */
 footer {
     text-align: center;
-}
-#social-networks {
-    text-align: center;
     padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+    background-color: rgb(214, 204, 204);
 }
 
 #social-networks {
-    font-size: medium;
-    padding: 2.5%;
-    color:hsl(0, 14%, 4%)
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    list-style: none;
 }
 
-/* Responsive Styles - Media Query for screens that are at least 576px wide */
+#social-networks {
+    margin: 0 10px;
+}
 
 /* Responsive Styles - Media Query for screens that are 980px and above */
 @media screen and (min-width: 980px) {
@@ -127,6 +114,7 @@ footer {
     }
 
     #header div {
-        width: 50px;
+        width: 50%;
     }
+
 }
