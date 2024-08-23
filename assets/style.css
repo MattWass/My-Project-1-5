@@ -1,12 +1,13 @@
 /* Asterick wildcard selector to overide default stlyes */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 /* Style Nav links */
 nav ul  {
+    background-color: rgba(155, 146, 146, 0.562);
     text-align: center;
     padding: 0;
     margin: 0;
@@ -29,15 +30,7 @@ a:hover {
     color: rgb(12, 138, 138);
 }
 
-/* Style body content section */
-body {
-    padding: 20px;
-    background-color: rgba(155, 146, 146, 0.562);
-    margin: 0;
-    padding: 20;
-}
-
-/* Style header */
+/* Style Header */
 header {
     background-color: rgb(103, 194, 224);
     font-family: Verdana;
@@ -48,6 +41,15 @@ header {
 
 img {
 
+}
+
+/* Style Main content section */
+main {
+    padding: 20px;
+    background-color: rgba(155, 146, 146, 0.562);
+    color: hsl(0, 14%, 4%);
+    margin: 0;
+    padding: 20;
 }
 
 /* Style headings */
@@ -71,7 +73,6 @@ h3 {
 p {
     font-family: Verdana;
     font-size: 15px;
-    color: hsl(0, 14%, 4%);
 }
 
 
@@ -123,6 +124,7 @@ table {
 
 /* Style footer section */
 footer {
+    background-color: rgba(155, 146, 146, 0.562);
     color: hsl(0, 14%, 4%);
     padding: 20px;
     text-align: center;
