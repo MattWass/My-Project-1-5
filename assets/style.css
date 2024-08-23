@@ -1,7 +1,5 @@
 /* Google Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;1,6..12,300&family=Rubik:ital,wght@0,300;1,300&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300&display=swap');
 
 /* Asterick wildcard selector to overide default stlyes */
 * {
@@ -12,26 +10,55 @@
 
 }
 
+/*---Headings---*/
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1,5rem;
+}
+
+h1, h2, h3 {
+    color: hsl(0, 14%, 4%);;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
 /* General Styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    font-family: "Rubik", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
     color: hsl(0, 14%, 4%);
-    font-family: "nunito sans", sans-serif;
+}
+
+.w100 {
+    width: 100%;
+}
+
+section {
+    padding: 10px;
+}
+
+.top-margin-5 {
+    margin-top: 5rem;
 }
 
 /* Style Header */
 header {
     background-color: rgb(163, 210, 226);
-    padding: 16px;
-    position: fixed;
-    z-index: 99;
+    padding: 10px;
     width: 100%;
-    box-shadow: 0 2px 2px  hsl(0, 14%, 4%);
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    top: 0;
+    
 }
 
 header a {
@@ -40,39 +67,17 @@ header a {
 }
 
 /* Style Nav links */
-#nav  {
-    font-size: large;
+#nav ul {
     letter-spacing: 1px;
     list-style: none;
     text-align: center;
-    padding: 0;
-    margin: 0;
-    line-height: 50px;
-    height: fit-content;
-    display: inline-block;
-
 }
+
 #nav > li {
     margin-bottom: 1em;
 }
 
-/* Nav styles dropdown section*/
-nav {
-    position: absolute;
-    background-color:  rgb(163, 210, 226);
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px hsl(0, 14%, 4%);
-    display: none;
-    top: 100%;
-}
-
 /* Nav Toggle */
-#nav-toggle:checked~nav {
-    display: block;
-}
-
 #nav-toggle {
     display: none;
 }
@@ -94,17 +99,9 @@ a:hover {
     border-bottom: 2px solid hsl(0, 14%, 4%);
 }
 
-/* Style Main content section */
-main {
-    background-color: rgba(155, 146, 146, 0.562);
-    flex: 1 0 auto;
-    margin-top: 50px;
-}
-
 
 /* Style Table */
 table {
-    font-family: Verdana;
     font-size: 15px;
     color: hsl(0, 14%, 4%);
     border-collapse: collapse;
@@ -130,48 +127,22 @@ table {
 
 /* Responsive Styles - Media Query for screens that are at least 576px wide */
 
-
-/* Responsive Styles - Media Query for screens that are at least 768px */
-@media screen and (min-width: 768) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+/* Responsive Styles - Media Query for screens that are 980px and above */
+@media screen and (min-width: 980px) {
+    #nav {
+        height: 40px;
     }
 
-    #nav {
+    #nav ul,
+    #header {
         display: flex;
     }
 
-    #nav > li {
-        padding-left: 1rem;
-    }
-
-    .nav.toggle-label {
-        display: none;
-    }
-
     #logo {
-        font-family: "Rubik", sans-serif;
-        font-size: 40px;
-        line-height: 50px;
-        letter-spacing: 1px;
-        margin: 0.25em;
-       }
+        flex-grow: 1;
+    }
 
-       /* Main Content */
-       main {
-        /* Main Content to be pushed down to accomodate for increase in the header */
-        margin-top: 80px;
-       }
-}
-
-/* Responsive Styles - Media Query for screens that are 992px and above */
-@media screen and (min-width: 992) {
-    #nav a:hover {
-        border-bottom: 1px solid hsl(0, 14%, 4%);
+    #header div {
+        width: 50px;
     }
 }
