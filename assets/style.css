@@ -1,5 +1,5 @@
 /* Google Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;1,6..12,300&family=Rubik:ital,wght@0,300;1,300&display=swap');
 
 
 
@@ -49,10 +49,12 @@ a:hover {
 /* Style Header */
 header {
     background-color: rgb(103, 194, 224);
-    font-family: Verdana;
-    color: hsl(0, 14%, 4%);
     padding: 20px;
     text-align: center;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
 }
 
 img {
