@@ -21,31 +21,6 @@ body {
     font-family: "nunito sans", sans-serif;
 }
 
-/* Style Nav links */
-nav ul  {
-    background-color: rgba(155, 146, 146, 0.562);
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
-    font-family:"nunito sans", sans-serif;
-    font-size: large;
-    line-height: 50px;
-    height: fit-content;
-    display: inline-block;
-    margin-bottom: 1em
-}
-
-a {
-    color:hsl(0, 14%, 4%);
-}
-
-a:hover {
-    color:rgb(12, 138, 138);
-}
-
 /* Style Header */
 header {
     background-color: rgb(103, 194, 224);
@@ -67,13 +42,46 @@ h1 {
     letter-spacing: 1px;
 }
 
+/* Style Nav links */
+#nav  {
+    font-size: large;
+    letter-spacing: 1px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    height: fit-content;
+    display: inline-block;
+
+}
+#nav > li {
+    margin-bottom: 1em;
+}
+
+/* Nav styles dropdown section*/
+nav {
+    position: absolute;
+    background-color:  rgb(103, 194, 224);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px hsl(0, 14%, 4%);
+    display: none;
+}
+
+a {
+    color:hsl(0, 14%, 4%);
+}
+
+a:hover {
+    color:rgb(12, 138, 138);
+}
+
 /* Style Main content section */
 main {
     background-color: rgba(155, 146, 146, 0.562);
     flex: 1 0 auto;
-    padding: 20px;
-    margin: 0;
-    padding: 20;
 }
 
 /* Style headings */
