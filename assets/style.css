@@ -3,6 +3,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: hsl(0, 14%, 4%);
+
+}
+
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Style Nav links */
@@ -45,9 +54,9 @@ img {
 
 /* Style Main content section */
 main {
-    padding: 20px;
     background-color: rgba(155, 146, 146, 0.562);
-    color: hsl(0, 14%, 4%);
+    flex: 1 0 auto;
+    padding: 20px;
     margin: 0;
     padding: 20;
 }
