@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     color: hsl(0, 14%, 4%);
-    font-family: "nunito sans", sans-serif
+    font-family: "nunito sans", sans-serif;
 }
 
 /* Style Nav links */
@@ -30,7 +30,7 @@ nav ul  {
 }
 
 nav li {
-    font-family: Verdana;
+    font-family:"nunito sans", sans-serif;
     font-size: large;
     line-height: 50px;
     height: fit-content;
@@ -64,6 +64,7 @@ header a {
 h1 {
     font-family: "Rubik", sans-serif;
     font-size: 40px;
+    letter-spacing: 1px;
 }
 
 /* Style Main content section */
