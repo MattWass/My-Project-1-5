@@ -35,30 +35,35 @@ nav li {
     line-height: 50px;
     height: fit-content;
     display: inline-block;
-    margin: 2%;
+    margin-bottom: 1em
 }
 
 a {
-    color: hsl(0, 14%, 4%);
+    color:hsl(0, 14%, 4%);
 }
 
 a:hover {
-    color: rgb(12, 138, 138);
+    color:rgb(12, 138, 138);
 }
 
 /* Style Header */
 header {
     background-color: rgb(103, 194, 224);
-    padding: 20px;
-    text-align: center;
+    padding: 16px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px  hsl(0, 14%, 4%);
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
     font-family: "Rubik", sans-serif;
-}
-
-img {
-
+    font-size: 40px;
 }
 
 /* Style Main content section */
@@ -71,10 +76,7 @@ main {
 }
 
 /* Style headings */
-h1 {
-    font-family: Verdana;
-    font-size: 80px;
-}
+
 
 h2 {
     font-family: Verdana;
