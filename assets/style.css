@@ -169,7 +169,8 @@ footer {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
 }
 
 /* Responsive Styles - Media Query for screens that are 980px and above */
