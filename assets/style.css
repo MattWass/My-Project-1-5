@@ -22,7 +22,7 @@ body {
 /* Headings */
 h2, h3 {
     text-align: center;
-    color: hsl(0, 14%, 4%);;
+    color: hsl(0, 14%, 4%);
 }
 
 h2 {
@@ -115,6 +115,7 @@ footer {
     #nav ul,
     #header {
         display: flex;
+        align-items: center;
     }
 
     #logo {
