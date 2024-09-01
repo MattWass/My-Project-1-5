@@ -126,11 +126,34 @@ th, td {
 }
 
 /* Style Sign Up form*/
-#signup form {
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 80%;
+    max-width: 250px;
+}
+
+form input[type="email"], form input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: rgb(163, 210, 226);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Style footer section */
@@ -139,3 +162,33 @@ footer {
     padding: 20px;
     background-color: rgb(214, 204, 204);
 }
+
+#social-networks {
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    list-style: none;
+}
+
+/* Responsive Styles - Media Query for screens that are 980px and above */
+@media screen and (min-width: 980px) {
+    #nav {
+        height: 40px;
+    }
+
+    #nav ul,
+    #header {
+        display: flex;
+    }
+
+    #logo {
+        flex-grow: 1;
+    }
+
+    #header div {
+        width: 50%;
+    }
+
+}
+
+
