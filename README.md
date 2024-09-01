@@ -10,6 +10,8 @@ This is a one page website with three seperate sections. Those being an informat
 
 Welcome to  [Take The Plunge](https://mattwass.github.io/My-Project-1-5/)
 
+![alt text](Screenshot_1-9-2024_234414_ui.dev.jpeg)
+
 
 ## Features
 
