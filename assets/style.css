@@ -13,7 +13,7 @@
 /* Style Header */
 header {
     background-color: rgb(163, 210, 226);
-    padding: 10px;
+    padding: 20px;
     width: 100%;
     position: relative;
     display: flex;
@@ -22,12 +22,20 @@ header {
     
 }
 
+header .text-center {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    text-align: left;
+}
+
 /* Style Image */
 header img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 /* Style Nav links */
