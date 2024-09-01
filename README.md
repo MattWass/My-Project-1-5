@@ -27,6 +27,7 @@ I can confirm that the form on the webpage works and displays the relevant crite
 
 Solved Bugs
 - Upon deploying my project I received an error that would not display my webpage in the browser. I resolved this with help from Tutor Support, who noticed my url link was missing some capitalization.
+- Font Awesome Icons would not display on webpage. Tutor Support aided with getting them to display as there was a 404 error.
 
 ### Validation
 
@@ -47,6 +48,8 @@ Solved Bugs
 ## Deployment
 
 ## Credits 
+- My Mentor Mo, for his continual support and guidance throughout my resubmission.
+- Tutor Support for guidance with my Font Awesome Icons not displaying correclty.
 
 ### Content
 
