@@ -18,6 +18,11 @@ Welcome to  [Take The Plunge](https://mattwass.github.io/My-Project-1-5/)
 
 # Testing
 
+- I have tested that the webpage works in different browsers: Edge, Chrome.
+- I can confirm that the webpage is responsive on various screen sizes, using the devtools device toolbar.
+- I can confirm  that all sections of the webpage are clear, easy to read and understand.
+I can confirm that the form on the webpage works and displays the relevant criteria upon being submitted.
+
 
 Accessibility:
 
