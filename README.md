@@ -6,6 +6,8 @@ Exceptions apply where an individual has medical conditions (cardiac, pulmonary,
 
 Another exception is age. Generally speaking children do not tolerate cold water therapy as well as adults and can run into danger quicker. Therefore it is recommended that cold water therapy be avoided by children. 
 
+This is a one page website with three seperate sections. Those being an information section called All Things Cold. A Sign Up section, to sign up and participate in cold water immersion. Then a Contact Us section. So anyone can get in touch with any queries they may have in regards to cold water therapy.
+
 Welcome to  [Take The Plunge](https://mattwass.github.io/My-Project-1-5/)
 
 
