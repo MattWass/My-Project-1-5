@@ -27,15 +27,15 @@ header {
     width: 100%;
     position: relative;
     display: flex;
-    align-items: center;  
+    align-items: center; 
+    justify-content: space-between; 
     flex-wrap: wrap;
 }  
 
 header .text-center {
-    position: absolute;
-    right: 10px;
     margin: 0;
     text-align: center;
+    flex-grow: 1;
 }
 
 /* Style Image */
@@ -177,6 +177,9 @@ footer {
 
 /* Responsive Styles - Media Query for screens that are 980px and above */
 @media screen and (min-width: 768px) {
+    header {
+        flex-wrap: nowrap;
+    }
     #nav {
         height: 40px;
         justify-content: flex-end;
