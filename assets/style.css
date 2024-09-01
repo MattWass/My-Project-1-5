@@ -27,10 +27,8 @@ header {
     width: 100%;
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
+    align-items: center;  
+}  
 
 header .text-center {
     position: absolute;
@@ -43,8 +41,7 @@ header .text-center {
 header img {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: auto;
+    display: center;
 }
 
 /* Style Nav links */
@@ -77,13 +74,12 @@ a:hover {
     font-weight: bold;
     text-decoration: none;
     padding: 10px 20px;
-    margin-right: auto;
+    margin: auto;
 }
 
 .active {
     border-bottom: 2px solid hsl(0, 14%, 4%);
 }
-
 
 /* Headings */
 h2, h3 {
@@ -104,7 +100,6 @@ p {
     font-size: 1rem;
 }
 
-
 /* Style Table */
 table {
     width:40%;
@@ -121,41 +116,26 @@ th, td {
     border: 1px solid;
 }
 
+/* Style Sign Up section */
+#signup {
+    padding: 40px 20px;
+    background-color: rgb(163, 210, 226);
+    margin: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+/* Style Sign Up form*/
+#signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 /* Style footer section */
 footer {
     text-align: center;
     padding: 20px;
     background-color: rgb(214, 204, 204);
-}
-
-#social-networks {
-    padding: 20px;
-    margin: 0 auto;
-    justify-content: center;
-    list-style: none;
-}
-
-#social-networks {
-    margin: 0 10px;
-}
-
-/* Responsive Styles - Media Query for screens that are 980px and above */
-@media screen and (min-width: 980px) {
-    #nav {
-        height: 40px;
-    }
-
-    #nav ul,
-    #header {
-        display: flex;
-    }
-
-    #logo {
-        flex-grow: 1;
-    }
-
-    #header div {
-        width: 50%;
-    }
-
 }
