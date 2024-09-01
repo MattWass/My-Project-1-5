@@ -53,6 +53,7 @@ header {
     letter-spacing: 1px;
     list-style: none;
     text-align: right;
+    padding: 10px 0;
 }
 
 #nav > li {
@@ -72,11 +73,18 @@ a:hover {
 
 /* Style Table */
 table {
-    font-size: 15px;
+    width:40%;
+    font-size: 1rem;
     color: hsl(0, 14%, 4%);
     border-collapse: collapse;
     border: 2px solid;
-    border-bottom: 2px solid;
+    margin: 20px 0;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid;
 }
 
 /* Style footer section */
