@@ -28,7 +28,7 @@ I can confirm that the form on the webpage works and displays the relevant crite
 Solved Bugs
 - Upon deploying my project I received an error that would not display my webpage in the browser. I resolved this with help from Tutor Support, who noticed my url link was missing some capitalization.
 
-### Validator Testing
+### Validation
 
 - HTML
 - CSS
