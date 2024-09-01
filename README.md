@@ -9,22 +9,30 @@ Another exception is age. Generally speaking children do not tolerate cold water
 Welcome to  [Take The Plunge](https://mattwass.github.io/My-Project-1-5/)
 
 
-# Features
+## Features
 
 - At the top of the page we can see the main site heading alongside the various links to the other sections of the webpage. These include All Things Cold, Sign Up and Contact Us.
 - The colours for this page are light blue, light grey and white. These colours are in line with the theme of water and ice.
 - The navigation of the webpage outlines the different sections clearly and displays the relevant sections appropriately.
 
 
-# Testing
+## Testing
 
 - I have tested that the webpage works in different browsers: Edge, Chrome.
 - I can confirm that the webpage is responsive on various screen sizes, using the devtools device toolbar.
 - I can confirm  that all sections of the webpage are clear, easy to read and understand.
 I can confirm that the form on the webpage works and displays the relevant criteria upon being submitted.
 
+### Bugs
 
-Accessibility:
+Solved Bugs
+- Upon deploying my project I received an error that would not display my webpage in the browser. I resolved this with help from Tutor Support, who noticed my url link was missing some capitalization.
+
+### Validator Testing
+
+- HTML
+- CSS
+- Accessibility:
 
 82 - Performance
 
@@ -34,3 +42,14 @@ Accessibility:
 
 83 - SEO
 
+### Unfixed Bugs
+
+## Deployment
+
+## Credits 
+
+### Content
+
+### Media
+
+- The image in the header was taken from [Pexels](https://www.pexels.com/)
