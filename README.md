@@ -106,3 +106,4 @@ Solved Bugs
 
 - The image in the header was taken from [Pexels](https://www.pexels.com/)
 - Font Awesome Icons from [Font Awesome Icons](https://fontawesome.com/icons)
+- Google Font from [Google Fonts](https://fonts.google.com/)
