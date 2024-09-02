@@ -16,7 +16,7 @@ Welcome to  [Take The Plunge](https://mattwass.github.io/My-Project-1-5/)
 
 
 ## Features
-- Naviagation
+- Navigation
 
   - At the top of the page we can see the main site heading alongside the various links to the other sections of the webpage. These include All Things Cold, Sign Up and Contact Us.
   - The navigation of the webpage outlines the different sections clearly and displays the relevant sections appropriately.
@@ -24,10 +24,35 @@ Welcome to  [Take The Plunge](https://mattwass.github.io/My-Project-1-5/)
 
   ![alt text](Screenshot_2-9-2024_03026_mattwass.github.io.jpeg)
 
+- All Things Cold
+  - The All Things Cold section displays the various benefits of cold water exposure.
+  - This section also hosts a table which displays the required time to spend exposed to the cold water depending what the temperature is.
+
+
+- Sign Up
+  - The Sign Up section hosts a form which includes a required email and password. 
+  - Users can sign up to take part in cold water therapy through Take The Plunge.
+
+![alt text](image-5.png)
+
+
+- Contact Us
+  - The Contact Us section offers and email address for direct contact with Take The Plunge.
+  - This section also houses Take The Plunge's various social media sites. These include:
+    - Facebook
+    - Instagram
+    - Twitter / X
+    - Youtube
+  
+  ![alt text](image-4.png)
 
 ## Testing
-- I have tested that the webpage works in different browsers: Edge, Chrome.
-- I can confirm that the webpage is responsive on various screen sizes, using the devtools device toolbar.
+- I have tested that the webpage works in different browsers: 
+  - Microsoft Edge
+  - Google Chrome
+  - Mozilla Firefox
+
+- I can confirm that the webpage is responsive on various screen sizes, using the devtools device toolbar. I tested this with an iphone 12 pro in devtools.
 - I can confirm  that all sections of the webpage are clear, easy to read and understand.
 I can confirm that the form on the webpage works and displays the relevant criteria upon being submitted.
 
@@ -50,24 +75,29 @@ Solved Bugs
   ![alt text](image-1.png)
 
 - Accessibility:
+  - The webpage scores relatively well in the lighthouse report
 
-82 - Performance
-
-94 - Accessibility
-
-92 - Best Practices
-
-83 - SEO
+  ![alt text](image-3.png)
 
 ### Unfixed Bugs
 
+- No bugs that are unfixed
+
 ## Deployment
 
-## Credits 
+- The webpage has been deployed to GitHub pages with the steps below:
+  - From the GitHub repository navigate to the settings tab
+  - From the source section select Master Branch
+  - From the Master Branch been selected the link is provided to the website
+
+## Acknowledgements
 - My Mentor Mo, for his continual support and guidance throughout my resubmission.
-- Tutor Support for guidance with my Font Awesome Icons not displaying correclty.
+- Tutor Support for guidance with my Font Awesome Icons not displaying correclty and also the help I received with the 405 error that was linked to my sign up form.
+- Student Care, for all their support and guidance over what has been a very challenging time.
 
 ### Content
+
+- Inspiration for my project was taken from the Coders Coffee House Project as well as both the Love Running Project I took part in earlier on in the course and also the Kids Coding Club webpage. 
 
 ### Media
 
