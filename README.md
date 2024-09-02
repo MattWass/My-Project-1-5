@@ -8,20 +8,24 @@ Another exception is age. Generally speaking children do not tolerate cold water
 
 This is a one page website with three seperate sections. Those being an information section called All Things Cold. A Sign Up section, to sign up and participate in cold water immersion. Then a Contact Us section. So anyone can get in touch with any queries they may have in regards to cold water therapy.
 
+The colours for this page are light blue and white. These colours are in line with the theme of water, ice and snow.
+
 Welcome to  [Take The Plunge](https://mattwass.github.io/My-Project-1-5/)
 
 ![alt text](Screenshot_1-9-2024_234414_ui.dev.jpeg)
 
 
 ## Features
+- Naviagation
 
-- At the top of the page we can see the main site heading alongside the various links to the other sections of the webpage. These include All Things Cold, Sign Up and Contact Us.
-- The colours for this page are light blue, light grey and white. These colours are in line with the theme of water and ice.
-- The navigation of the webpage outlines the different sections clearly and displays the relevant sections appropriately.
+  - At the top of the page we can see the main site heading alongside the various links to the other sections of the webpage. These include All Things Cold, Sign Up and Contact Us.
+  - The navigation of the webpage outlines the different sections clearly and displays the relevant sections appropriately.
+  - The image displays a bath in the middle of a ice block, on top of a body of water.
+
+  ![alt text](Screenshot_2-9-2024_03026_mattwass.github.io.jpeg)
 
 
 ## Testing
-
 - I have tested that the webpage works in different browsers: Edge, Chrome.
 - I can confirm that the webpage is responsive on various screen sizes, using the devtools device toolbar.
 - I can confirm  that all sections of the webpage are clear, easy to read and understand.
@@ -36,7 +40,15 @@ Solved Bugs
 ### Validation
 
 - HTML
+  - The webpage passes in the html validator
+
+  ![alt text](image.png)
+
 - CSS
+  - The webpage passes in the css jigsaw validator 
+
+  ![alt text](image-1.png)
+
 - Accessibility:
 
 82 - Performance
