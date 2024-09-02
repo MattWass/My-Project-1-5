@@ -2,15 +2,15 @@
 
 Take The Plunge is a website designed to help people understand the incredible benefits of cold water therapy. It does this by listing ways in which these benefits may better improve people's lives. Helping them heal from various inflammatory issues as well as aid in the balancing of hormones and energy levels.
 
-Exceptions apply where an individual has medical conditions (cardiac, pulmonary, etc). In such conditions people should seek advice via relevant health care providers before particapting in cold water immersion. 
+Exceptions apply where an individual has medical conditions (cardiac, pulmonary, etc). In such conditions people should seek advice via relevant health care providers before participating in cold water immersion. 
 
-Another exception is age. Generally speaking children do not tolerate cold water therapy as well as adults and can run into danger quicker. Therefore it is recommended that cold water therapy be avoided by children. 
+Another exception is age. Generally speaking children do not tolerate cold water therapy as well as adults and can run into danger quicker. Therefore, it is recommended that cold water therapy be avoided by children.
 
-This is a one page website with three seperate sections. Those being an information section called All Things Cold. A Sign Up section, to sign up and participate in cold water immersion. Then a Contact Us section. So anyone can get in touch with any queries they may have in regards to cold water therapy.
+This is a one page website with three separate sections. Those being an information section called All Things Cold. A Sign Up section, to sign up and participate in cold water immersion. Then a Contact Us section. So anyone can get in touch with any queries they may have in regards to cold water therapy.
 
 The colours for this page are light blue and white. These colours are in line with the theme of water, ice and snow.
 
-Welcome to  [Take The Plunge](https://mattwass.github.io/My-Project-1-5/)
+Welcome to [Take The Plunge](https://mattwass.github.io/My-Project-1-5/)
 
 ![alt text](image-2.png)
 
@@ -26,7 +26,9 @@ Welcome to  [Take The Plunge](https://mattwass.github.io/My-Project-1-5/)
 
 - All Things Cold
   - The All Things Cold section displays the various benefits of cold water exposure.
-  - This section also hosts a table which displays the required time to spend exposed to the cold water depending what the temperature is.
+  - This section also hosts a table which displays the required time to spend exposed to the cold water depending on what the temperature is.
+
+![alt text](image-6.png)
 
 
 - Sign Up
@@ -92,7 +94,7 @@ Solved Bugs
 
 ## Acknowledgements
 - My Mentor Mo, for his continual support and guidance throughout my resubmission.
-- Tutor Support for guidance with my Font Awesome Icons not displaying correclty and also the help I received with the 405 error that was linked to my sign up form.
+- Tutor Support for guidance with my Font Awesome Icons not displaying correctly and also the help I received with the 405 error that was linked to my sign up form.
 - Student Care, for all their support and guidance over what has been a very challenging time.
 
 ### Content
