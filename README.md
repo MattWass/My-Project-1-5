@@ -12,7 +12,7 @@ The colours for this page are light blue and white. These colours are in line wi
 
 Welcome to  [Take The Plunge](https://mattwass.github.io/My-Project-1-5/)
 
-![alt text](Screenshot_1-9-2024_234414_ui.dev.jpeg)
+![alt text](image-2.png)
 
 
 ## Features
