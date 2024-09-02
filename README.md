@@ -100,7 +100,9 @@ Solved Bugs
 ### Content
 
 - Inspiration for my project was taken from the Coders Coffee House Project as well as both the Love Running Project I took part in earlier on in the course and also the Kids Coding Club webpage. 
+- The knowledge and use of font awesome icons was gained through following the Love Running Project
 
 ### Media
 
 - The image in the header was taken from [Pexels](https://www.pexels.com/)
+- Font Awesome Icons from [Font Awesome Icons](https://fontawesome.com/icons)
